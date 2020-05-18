@@ -349,8 +349,8 @@ def main(item_initial, function):
     driver.get(url)
 
     # ID, PW 입력
-    driver.find_element_by_xpath('//*[@id="user-id"]').send_keys('geoppamall')
-    driver.find_element_by_xpath('//*[@id="passWord"]').send_keys('tlqskukds9S!')
+    driver.find_element_by_xpath('//*[@id="user-id"]').send_keys('')
+    driver.find_element_by_xpath('//*[@id="passWord"]').send_keys('')
 
     # click loggin
     driver.find_element_by_xpath('/html/body/div[1]/form[1]/fieldset/button').click()
